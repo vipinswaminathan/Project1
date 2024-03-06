@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+}
+
+/* header-section  */
+section.head-sec{
+    background: url(head\ background.jpg);
+}
+h6.head-txt{
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* navigation-section  */
+
+img.nav-img{
+    width:80px;
+    height: 60px; 
+    border: 3px solid white;
+    padding: 2px 5px;
+    background: linear-gradient(#025f9c, #00295c);
+}
+li.nav-content{
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+input.search{
+    padding-bottom: 5px;
+    max-width: 140px;
+    background-color: #2d5e95;
+    border: 0px;
+    border-bottom: 3px solid #5f8cbe;
+}
+input.search::placeholder{
+    color: #5f8cbe;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/* banner-section  */
+.banner-inbox{
+    background-color: rgb(3, 48, 94,0.8);
+}
+.hr{
+    margin: 0px;
+    padding: 1px;
+}
+.banner-img{
+    background: url(banner\ image.avif);
+    background-size: cover;
+}
+span.banner-txt{
+    transform: translateY(-3px);
+    display: inline-block;
+}
+
+/* about section  */
+/* popular topics  */
+p.card-text{
+    font-size: 16px;
+}
+.card{
+    height: 300px;
+    border: 0px;
+}
+.card-img-top{
+    height: 150px;
+}
+.popular-links{
+    background: linear-gradient(rgb(231, 229, 229),rgb(244, 243, 243),white);
+    margin-right: 2px;
+    margin-top: 3px;
+    border: 0px;
+}
+
+/* news section  */
+.news-txt{
+    border-top: 5px solid rgb(111, 4, 4);
+    transform: translate(-40px,-90px);
+    box-shadow: 0px 4px 10px black;
+    background-color: white;
+}
+img.news-icon{
+    width: 20px;
+}
+hr.news-hr{
+    border: 1px solid rgb(137, 5, 5);
+}
+p.time-para{
+    margin: 0;
+}
+.img-thumbnail{
+    background-color: #efefef;
+    padding: 12px;
+    border-top: 2px solid rgb(137, 5, 5);
+    margin: 8px;
+}
+/* logo section  */
+img.media-logo{
+    width: 25px;
+}
+a.logo-div{
+    border-left: 1px solid grey;
+    padding: 1px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* banner section responsive  */
+@media (max-width:768px){
+    .banner-img{
+        background-position: center;
+    }
+}
+/* news section responsive */
+@media (max-width:575px){
+    .news-txt{
+        transform: translate(0px,0px);
+    }
+}
+@media(max-width:1192px){
+    li.nav-content{
+        border: 0px;
+    }
+}
